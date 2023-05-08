@@ -107,13 +107,13 @@ public class TaskTester {
         boolean result = Task04.task04(4, 2023) == 30
                 && Task04.task04(5, 2023) == 31
                 && Task04.task04(2, 1900) == 28
-                && Task04.task04(2, 2000) == 29
                 && Task04.task04(-7, 2023) == 0
                 && Task04.task04(0, 2023) == 0
                 && Task04.task04(13, 2023) == 0
 
                 && Task04.task04(2, 2023) == 28
                 && Task04.task04(2, 1984) == 29
+                && Task04.task04(2, 2000) == 29
                 && Task04.task04(2, 0) == 29
                 && Task04.task04(2, -100) == 28
                 && Task04.task04(2, -2300) == 28
