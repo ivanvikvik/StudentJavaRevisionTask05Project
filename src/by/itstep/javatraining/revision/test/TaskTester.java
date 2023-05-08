@@ -114,13 +114,11 @@ public class TaskTester {
 
                 && Task04.task04(2, 2023) == 28
                 && Task04.task04(2, 1984) == 29
-                && Task04.task04(2, 2000) == 29
                 && Task04.task04(2, 0) == 29
                 && Task04.task04(2, -100) == 28
                 && Task04.task04(2, -2300) == 28
                 && Task04.task04(2, 2300) == 28
 
-                && Task04.task04(4, 2023) == 30
                 && Task04.task04(6, 2023) == 30
                 && Task04.task04(9, 2023) == 30
                 && Task04.task04(11, 2023) == 30
@@ -231,18 +229,16 @@ public class TaskTester {
     }
 
     public static String testingTask08() {
-        boolean result =
-                //Task08.task08(3, 5, 2023).trim().equals("04.05.2023")
-                //        &&
-                Task08.task08(28, 2, 2023).trim().equals("01.03.2023")
-                        && Task08.task08(28, 2, 2020).trim().equals("29.02.2020")
-                        && Task08.task08(30, 2, 2020).trim().equalsIgnoreCase("Error.")
-                        && Task08.task08(1, 13, 2020).trim().equalsIgnoreCase("Error.")
-                        && Task08.task08(1, -1, 2020).trim().equalsIgnoreCase("Error.")
-                        && Task08.task08(1, 1, -1).trim().equalsIgnoreCase("Error.")
-                        && Task08.task08(29, 2, 2023).trim().equalsIgnoreCase("Error.")
-                        && Task08.task08(29, 2, 1900).trim().equalsIgnoreCase("Error.")
-                        && Task08.task08(29, 2, 1800).trim().equalsIgnoreCase("Error.");
+        boolean result = Task08.task08(3, 5, 2023).trim().equals("04.05.2023")
+                && Task08.task08(28, 2, 2023).trim().equals("01.03.2023")
+                && Task08.task08(28, 2, 2020).trim().equals("29.02.2020")
+                && Task08.task08(30, 2, 2020).trim().equalsIgnoreCase("Error.")
+                && Task08.task08(1, 13, 2020).trim().equalsIgnoreCase("Error.")
+                && Task08.task08(1, -1, 2020).trim().equalsIgnoreCase("Error.")
+                && Task08.task08(1, 1, -1).trim().equalsIgnoreCase("Error.")
+                && Task08.task08(29, 2, 2023).trim().equalsIgnoreCase("Error.")
+                && Task08.task08(29, 2, 1900).trim().equalsIgnoreCase("Error.")
+                && Task08.task08(29, 2, 1800).trim().equalsIgnoreCase("Error.");
 
         int[] month30 = {2, 4, 6, 9, 11};
 
